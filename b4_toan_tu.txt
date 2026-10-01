@@ -1,0 +1,7 @@
+- Cơ bản có: + - * / % ++ --
+- chú ý ++a và a++
+- Các toán tử quan hệ: == != > < >= <= 
+- Các toán tử logic: && || ! 
+- toán tử gán: = += -= *= /= %=
+- toán tử 'instanceof' chỉ dùng cho các biến của kiểu dữ liệu tham chiếu
+dùng để kiểm tra kiểu dữ liệu. 
