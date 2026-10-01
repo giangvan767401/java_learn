@@ -1,0 +1,2 @@
+- là 1 biến mà giá trị không đổi trong suốt chương trình.
+- cách sử dụng: final [KIEU_DU_LIEU] [TEN_HANG] = [GIA_TRI];
