@@ -1,0 +1,7 @@
+- Kiểu dữ liệu tham chiếu (Reference type): là kiểu dữ liệu của đối tượng. Biến
+của nó chỉ chứa địa chỉ của đối tượng trong bộ nhớ Stack.
+- Đối tượng dữ liệu lại nằm ở bộ nhớ Heap.
+
+vd: String a = "Kteam"
+a lưu địa chỉ trong Stack: 0xnfe (địa chỉ)
+giá trị "Kteam" lưu ở bộ nhớ Heap.
