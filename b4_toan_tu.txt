@@ -5,3 +5,4 @@
 - toán tử gán: = += -= *= /= %=
 - toán tử 'instanceof' chỉ dùng cho các biến của kiểu dữ liệu tham chiếu
 dùng để kiểm tra kiểu dữ liệu. 
+- toán tử điều kiện rút gọn: biến = dkien ? (gtri nếu đúng) : (gtri nếu sai)
