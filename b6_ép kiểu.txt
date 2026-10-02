@@ -1,31 +1,30 @@
-Tổng quan về Ép kiểu dữ liệu (Type Casting)
-Ép kiểu dữ liệu là quá trình chuyển đổi một biến hoặc giá trị từ kiểu dữ liệu này sang kiểu dữ liệu khác.
+Ép kiểu dữ liệu là quá trình chuyển đổi một biến hoặc giá trị từ kiểu dữ liệu này 
+sang kiểu dữ liệu khác.
 
 Trong lập trình, việc này được chia thành 2 loại chính:
 
 1. Ép kiểu ngầm định (Implicit Casting)
-Khái niệm: Là quá trình trình biên dịch tự động chuyển đổi kiểu dữ liệu mà không cần sự can thiệp của lập trình viên.
+Khái niệm: Là quá trình trình biên dịch tự động chuyển đổi kiểu dữ liệu mà không
+ cần sự can thiệp của lập trình viên.
 
-Nguyên tắc: Chuyển từ kiểu dữ liệu có miền giá trị nhỏ sang lớn hơn (an toàn, không lo mất dữ liệu).
+Nguyên tắc: Chuyển từ kiểu dữ liệu có miền giá trị nhỏ sang lớn hơn 
+(an toàn, không lo mất dữ liệu).
 
 Ví dụ minh họa (Java):
-
-Java
-
 
 byte b = 10;
 int a = b; // Biến b kiểu byte (nhỏ) tự động chuyển thành int (lớn) để gán vào a
+
 2. Ép kiểu tường minh (Explicit Casting)
-Khái niệm: Là quá trình lập trình viên chủ động ép một kiểu dữ liệu lớn xuống kiểu dữ liệu nhỏ hơn.
+Khái niệm: Là quá trình lập trình viên chủ động ép một kiểu dữ liệu lớn xuống
+ kiểu dữ liệu nhỏ hơn.
 
 Cú pháp: (kieu_du_lieu_moi) ten_bien;
 
-Nguyên tắc: Chuyển từ kiểu dữ liệu có miền giá trị lớn xuống nhỏ. Do có nguy cơ mất dữ liệu (ví dụ: mất phần thập phân của số thực hoặc tràn số), bạn phải tự chịu trách nhiệm và viết rõ cú pháp ép kiểu.
+Nguyên tắc: Chuyển từ kiểu dữ liệu có miền giá trị lớn xuống nhỏ. 
+Do có nguy cơ mất dữ liệu (ví dụ: mất phần thập phân của số thực hoặc tràn số), 
+bạn phải tự chịu trách nhiệm và viết rõ cú pháp ép kiểu.
 
 Ví dụ minh họa (Java):
-
-Java
-
-
 double diemTrungBinh = 8.5;
 int diemLamTron = (int) diemTrungBinh;
